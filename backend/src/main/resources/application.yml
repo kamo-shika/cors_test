@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: backend
+  logging:
+    level:
+      org:
+        springframework:
+          security: DEBUG
+cors:
+  allowed:
+    origins: http://localhost:9000
